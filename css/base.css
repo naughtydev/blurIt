@@ -1,0 +1,24 @@
+html,body{
+    padding:0px;
+    margin:0px;
+    min-height: 100%;
+    position:relative;
+    height:100%;
+}
+
+#backgroud_div{
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+    width:100%;
+    background-color:#eee;
+    z-index:1;
+}
+
+#image_source{position:absolute; width:100px; height:100px; z-index:2; top:50%; left:50%; margin:-50px auto auto -50px;}
+
+canvas{
+    position: relative;
+    z-index: 3;
+}

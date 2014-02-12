@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blur it jQuery plugin</title>
+        <link href="css/base.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="backgroud_div"></div>
+        <img id="image_source" src="img/user.png">
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="js/blurIt.js"></script>
+        <script>
+            $(function(){
+                $("#backgroud_div").blurIt( $("#image_source") , 10 );
+            });
+        </script>
+        
+    </body>
+</html>
