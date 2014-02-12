@@ -2,7 +2,7 @@
 
 ### what is that
 
-This is a simple jQuery plugin to blur image and 
+This is a simple jQuery plugin to blur image and set it as a background cover
 
 see it live <a href="http://zkareemz.github.io/blurIt/">here</a>
 
