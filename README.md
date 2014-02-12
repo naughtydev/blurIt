@@ -1,4 +1,13 @@
-# Hello world!
+# blurIt jQery plugin
 
-This is a placeholder README file for your project. Update it with information about your project,
-so others can find out more.
+### what is that
+
+This is a simple jQuery plugin to blur image and 
+
+see it live <a href="http://zkareemz.github.io/blurIt/">here</a>
+
+### how it works
+
+simply just apply :
+
+$("#targeted_element").blurIt( $("#image_source") , 10 /* blur radius*/ );
